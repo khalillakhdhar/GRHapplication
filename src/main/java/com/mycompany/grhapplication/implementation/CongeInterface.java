@@ -4,10 +4,15 @@
  */
 package com.mycompany.grhapplication.implementation;
 
+import com.mycompany.grhapplication.model.Conge;
+
 /**
  *
  * @author khali
  */
 public interface CongeInterface {
+    public void ajouterConge(Conge conge);
+    public void updateConge(Conge conge);
+    public void deleteConge(int id);
     
 }
